@@ -1,0 +1,23 @@
+{
+  "name": "mocha-term-cov-reporter",
+  "version": "0.1.0",
+  "description": "Mocha reporter for displaying a code coverage report in the terminal",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "main": "./lib/reporter.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "prestart": "coffee -co lib src",
+    "pretest": "coffee -co lib src",
+    "prepublish": "coffee -co lib src"
+  },
+  "dependencies": {
+    "colors": "0.6.0-1",
+    "underscore": "1.4.3",
+    "mocha": "1.7.4"
+  },
+  "devDependencies": {
+    "coffee-script": "1.4.0"
+  }
+}
