@@ -1,6 +1,6 @@
 {
   "name": "mocha-term-cov-reporter",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Mocha reporter for displaying a code coverage report in the terminal",
   "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
   "main": "./lib/reporter.js",
