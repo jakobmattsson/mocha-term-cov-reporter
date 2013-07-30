@@ -7,6 +7,10 @@
   "engines": {
     "node": ">= 0.8.0 < 0.12"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jakobmattsson/mocha-term-cov-reporter"
+  },
   "scripts": {
     "prestart": "coffee -co lib src",
     "pretest": "coffee -co lib src",
