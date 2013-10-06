@@ -17,11 +17,11 @@
     "prepublish": "coffee -co lib src"
   },
   "dependencies": {
-    "colors": "0.6.0-1",
-    "underscore": "1.4.3",
-    "mocha": "1.7.4"
+    "colors": "^0.6.1",
+    "underscore": "^1.4.3",
+    "mocha": "^1.7.4"
   },
   "devDependencies": {
-    "coffee-script": "1.4.0"
+    "coffee-script": "^1.4.0"
   }
 }
