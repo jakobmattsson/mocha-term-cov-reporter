@@ -5,8 +5,7 @@
   "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
   "main": "./lib/reporter.js",
   "engines": {
-    "npm": ">= 1.3 < 2",
-    "node": ">= 0.10.13 < 0.12"
+    "node": ">= 0.10.13 < 0.14"
   },
   "repository": {
     "type": "git",
@@ -18,9 +17,9 @@
     "prepublish": "coffee -co lib src"
   },
   "dependencies": {
-    "colors": "^0.6.1",
+    "colors": "^1.1.2",
     "underscore": "^1.4.3",
-    "mocha": "^1.7.4"
+    "mocha": "^2.2.5"
   },
   "devDependencies": {
     "coffee-script": "^1.4.0"
