@@ -4,3 +4,5 @@ lib
 !.gitignore
 !.npmignore
 !.bowerrc
+
+node_modules
