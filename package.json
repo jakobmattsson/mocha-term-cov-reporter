@@ -4,8 +4,9 @@
   "description": "Mocha reporter for displaying a code coverage report in the terminal",
   "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
   "main": "./lib/reporter.js",
+  "license": "MIT",
   "engines": {
-    "node": ">= 0.10.13 < 0.14"
+    "node": ">= 0.10.13 < 5"
   },
   "repository": {
     "type": "git",
